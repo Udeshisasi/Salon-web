@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="subscribe.js"></script>
+<link rel = "stylesheet" href = "style.css" >
+ <style>
+.bodyabout {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image : url("cafe/background.jpg");
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 40px;
+  text-align: center;
+  background-color: #f7d0c2;
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+</style> 
+</head>
+<body class = "body2">
+
+		<header class="site-header">
+				<div class="container">
+					<a id="branding" href="index.html">
+						<img src="images/logo.png" alt="Company name" class="logo">
+						<div class="logo-copy">
+							<h1 class="site-title">S U R A L I Y A </h1>
+							<small class="site-description">Salon </small>
+						</div>
+					</a>
+		</header>
+					
+<div class="about-section">
+  <h1><b>About Us<b></h1>
+  <p>“If everyone is moving forward together, then success takes care of itself.”<br><br>Henry Ford<br> American industrialist and founder of the Ford Motor Company.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+            <div class="container">
+        <h2>G.R. PIUMI GUNAWARDHANA</h2>
+        <p class="title">KUDSE202F-015</p>
+        <p><button class="button"><B>TEAM MEMBER</B></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+            <div class="container">
+        <h2>M.SANDANI VIHARA MADAMPAGE</h2>
+        <p class="title">KUDSE202F-019</p>
+        <p><button class="button"><B>TEAM LEADER</B></button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+       <div class="container">
+        <h2>B.K.S.UDESHIKA SENANAYAKE</h2>
+        <p class="title">KUDSE202F-025</p>
+        <p><button class="button"><B>TEAM MEMBER</B></button></p>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+</div>
+
+			<footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="widget contact-widget">
+								<h3 class="widget-title">Contact</h3>
+								<div class="contact-info">
+									<address>
+										<img src="images/icon-map-small.png" class="icon">
+										<p><strong>SALON SURALIYA</strong> Ganewaththa Road, Gonagama </p>
+									</address>
+										<a href="mailto:sandaniviharamadam02@gmail.com" class="mail"><img src="images/icon-envelope-small.png" class="icon">contact@suraliya.com</a>
+										<a href="tel:(+94) 76 324 2016" class="phone"><img src="images/icon-phone-small.png" class="icon">(+94) 76 324 2016</a>			
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="widget">
+								<h3 class="widget-title">Social Media</h3>
+								<p>Find us on </p>
+								<div class="social-links">
+									<a href="https://www.facebook.com/Salon-suraliyagonagama-100477034863363/"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.facebook.com/Salon-suraliyagonagama-100477034863363/"><i class="fa fa-twitter"></i></a>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="widget">
+								<h3 class="widget-title">Newsletter</h3>
+								<p>If you want to know about our special activites don't hesitate to mail us and provide tour e-mail for our future works. </p>
+								<form name = "sub"  action="https://docs.google.com/forms/d/1wEmZsovSCCVEGLdAR01m2hwcsAA0pMEAaTTZk-SnGcE/edit" onsubmit = "return validate()" class="subscribe-form">
+									<input type="text"  placeholder="Enter your email..." id = "abcd"  name = "abcd">
+									<input type="submit"  value="Sign up">
+								</form>
+							</div>
+						</div>
+					</div>
+
+					<div class="colophon">
+						<p>Copyright 2022 SALON SURALIYA. Designed by <a href = "team.html">SUP</a>. All rights reserved.</p>
+					</div>
+				</div>
+			</footer>
+
+
+</body>
+</html>
